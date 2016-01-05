@@ -1,0 +1,3 @@
+Commands
+
+ssh-copy-id -i target_username@target_ip(hostname)
