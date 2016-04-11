@@ -1,8 +1,40 @@
-Commands
+-----------------------------------------------------------
+COMMANDS
 
 # Copy rsa keys.
 ssh-copy-id -i target_username@target_ip(hostname)
 
-eval "$(ssh-agent -s)"
+python -m lachine/lg51 cases/node/reset/lightdimmable
+
+#SCP Syntax
+scp -r foo your_username@remotehost.edu:/some/remote/directory/bar
+
+git clone git+ssh://barney@barney-VirtualBox/~/git/lightgrid-testing-framework
+
+git remote add barney git+ssh://barney@barney-VirtualBox/~/git/lightgrid-testing-framework
+
+find ./test -name "*.php"
+
+usermod -a -G dialout MY_USER_NAME
+
+NETSTAT:
+
+//To watch a continous list of active connections, use the watch command along with netstat and grep
+watch -d -n0 "netstat -atnp | grep ESTA"
+
+Netstat can output connection information continuously with the c option.
+netstat -ca
+
+-----------------------------------------------------------
+LOGINS:
+
+testing@QaLg2Ac1 11***14 - ACQUISITION PC LG2
+testing@Qaac2 11***14 - ACQUISITION PC LG1
 
 http://192.168.1.133:10000/encode
+
+-----------------------------------------------------------
+Website references
+
+http://dixso.github.io/custombox/
+http://joaopereirawd.github.io/animatedModal.js/
