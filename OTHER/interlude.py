@@ -5,7 +5,7 @@ interlude_1 = ["Don't let me drown, don't breath alone.",
 	  "Never let me sink, always feel at home.",
 	  "No sticks, no shanks and no stones.",
 	  "Never leave it too late, always enjoy the taste,",
-	  "Of the great grey world of hearts."]
+	  "Of the great great great grey world of hearts."]
 
 def print_lyrics(input, tempo):
 	"""Prints the values of the array of lyrics

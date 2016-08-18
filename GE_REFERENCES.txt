@@ -1,37 +1,52 @@
+--------------------------------------------------------
+GIT
+
+# To get a specific branch from remote:
+
+git branch -a
+git checkout -b experimental origin/experimental
+
+# How to delete local/remote branches
+
+git branch -d the_local_branch
+git push origin --delete [branch_name]
+
+#Git remote on SSh to another computer
+
+git clone git+ssh://barney@barney-VirtualBox/~/git/lightgrid-testing-framework
+git remote add barney git+ssh://barney@barney-VirtualBox/~/git/lightgrid-testing-framework
+
 -----------------------------------------------------------
 COMMANDS
+
+# FIND
+find ./test -name "*.php"
+find . -name "*.bak" -type f -delete
+
+-----------------------------------------------------------
+
+ZIP Files:
+
+To Unzip .tar.gz file:
+gunzip libftd2xx1.1.tar.gz
+tar –xvf libftd2xx.tar
+
+-------------------------------------------------------
+
+RSA:
 
 # Copy rsa keys.
 ssh-copy-id -i target_username@target_ip(hostname)
 
-python -m lachine/lg51 cases/node/reset/lightdimmable
+------------------------------------------------------
 
 #SCP Syntax
 scp -r foo your_username@remotehost.edu:/some/remote/directory/bar
 
-git clone git+ssh://barney@barney-VirtualBox/~/git/lightgrid-testing-framework
-
-git remote add barney git+ssh://barney@barney-VirtualBox/~/git/lightgrid-testing-framework
-
-find ./test -name "*.php"
+--------------------------------------------------------------
+OTHER LIFE SAVERS:
 
 usermod -a -G dialout MY_USER_NAME
-
-NETSTAT:
-
-//To watch a continous list of active connections, use the watch command along with netstat and grep
-watch -d -n0 "netstat -atnp | grep ESTA"
-
-Netstat can output connection information continuously with the c option.
-netstat -ca
-
------------------------------------------------------------
-LOGINS:
-
-testing@QaLg2Ac1 11***14 - ACQUISITION PC LG2
-testing@Qaac2 11***14 - ACQUISITION PC LG1
-
-http://192.168.1.133:10000/encode
 
 -----------------------------------------------------------
 Website references
