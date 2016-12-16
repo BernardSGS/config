@@ -1,0 +1,27 @@
+    1  sudo apt-get update
+    2  sudo apt-get upgrade
+    3  sudo apt-get install terminator openssh 
+    4  sudo apt-get install terminator
+    5  hsitory
+    6  history
+    7  sudo apt-get install git
+    8  python
+    9  sudo easy_install pip
+   10  sudo apt-get install easy_install
+   11  sudo apt-get install python-setuptools
+   12  sudo easy_install pip
+   13  pyhton3
+   14  python3
+   15  sudo apt-get install terminator
+   16  nano ~/.bash_aliases
+   17  python
+   18  source ~/.bash_aliases 
+   19  python
+   20  sudo add-apt-repository ppa:webupd8team/sublime-text-3
+   21  sudo apt-get update
+   22  sudo apt-get install sublime-text-installer
+   23  subl
+   24  ls
+   25  subl README.md 
+   26  history
+   27  history > setup.txt

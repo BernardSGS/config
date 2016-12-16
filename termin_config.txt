@@ -1,0 +1,73 @@
+[global_config]
+  borderless = True
+  handle_size = 1
+  inactive_color_offset = 0.85
+  suppress_multiple_term_dialog = True
+  title_hide_sizetext = True
+  title_transmit_bg_color = "#c43b41"
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 49840389-5eb6-4de2-ae50-19ec0f147b05
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 0:25
+      size = 1920, 926
+      title = bernie@tranquilitylane: /etc
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 867
+      ratio = 0.45234375
+      type = HPaned
+    [[[child3]]]
+      order = 1
+      parent = child1
+      position = 522
+      ratio = 0.498571428571
+      type = HPaned
+    [[[child4]]]
+      order = 0
+      parent = child3
+      position = 461
+      ratio = 0.499460043197
+      type = VPaned
+    [[[terminal2]]]
+      order = 0
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 49840389-5eb6-4de2-ae50-19ec0f147b05
+    [[[terminal5]]]
+      command = ls -l; bash
+      order = 0
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = a05c3ef4-807d-469e-b6af-b0ee6ae780e1
+    [[[terminal6]]]
+      order = 1
+      parent = child4
+      profile = default
+      type = Terminal
+      uuid = d97e9d3f-adab-479d-8932-e2d500a6dd60
+    [[[terminal7]]]
+      command = top; bash
+      order = 1
+      parent = child3
+      profile = default
+      type = Terminal
+      uuid = 525be008-4638-4948-b60f-69ec025ac1d0
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.91
+    background_image = None
+    background_type = transparent
+    foreground_color = "#00ff00"
+    palette = "#000000:#cd0000:#00cd00:#cdcd00:#0000ee:#cd00cd:#00cdcd:#e5e5e5:#7f7f7f:#ff0000:#00ff00:#ffff00:#5c5cff:#ff00ff:#00ffff:#ffffff"
